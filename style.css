@@ -214,6 +214,9 @@ header .navbar-brand:hover, li>a:hover{
 #skillLeft, #skillRight{
     filter: drop-shadow(4px 4px 3px rgba(var(--bs-dark-rgb)));
 }
+#skillLeft .progress-bar{
+    font-size: 1.5em;
+}
 #skillRight .progress-group{
     background: conic-gradient( rgba(var(--bs-primary-rgb)) calc(3.6deg*var(--i)), rgba(var(--bs-secondary-rgb)) 0deg);
     width: 100px;

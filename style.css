@@ -138,13 +138,16 @@ header .navbar-brand:hover, li>a:hover{
     position: relative;
     overflow: hidden;
 }
-#about .image-wrap{
-    overflow: hidden;
-    padding: 30px;
+
+#about ul{
+    list-style-type: none;
 }
-#about img{
-    scale: 1.4;
-    /* width: 90%; */
+
+#about .personal-details ul li::before{
+    content: "> ";
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: rgba(var(--bs-primary-rgb));
 }
 
 #about .objective{

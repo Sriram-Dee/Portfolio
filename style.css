@@ -215,7 +215,7 @@ header .navbar-brand:hover, li>a:hover{
 
 /* -----------------------------------------------------Skill section------------------------------- */
 #skillLeft, #skillRight{
-    filter: drop-shadow(4px 4px 3px rgba(var(--bs-dark-rgb)));
+    filter: drop-shadow(2px 1px 3px rgba(var(--bs-light-rgb)));
 }
 #skillLeft .progress-bar{
     font-size: 1.5em;
@@ -225,7 +225,7 @@ header .navbar-brand:hover, li>a:hover{
     width: 100px;
     aspect-ratio: 1;
     position: relative;
-    box-shadow: 1px 1px 10px 1px rgba(var(--bs-light-rgb)) , -1px -1px 10px rgba(var(--bs-light-rgb)) ;
+    box-shadow: 1px 1px 5px 1px rgba(var(--bs-light-rgb)) , -1px -1px 5px rgba(var(--bs-light-rgb)) ;
 }
 #skillRight .progress-group .progress-text{
     position: absolute;
